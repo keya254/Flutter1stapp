@@ -81,7 +81,7 @@ class _HomePageState extends State<HomePage> {
           ListTile(
             leading: Icon(Icons.email),
             title: Text("Email"),
-            subtitle: Text("falamjanja@gmail.com"),
+            subtitle: Text("personofinterest@gmail.com"),
             trailing: Icon(Icons.edit),
           ),
         ],

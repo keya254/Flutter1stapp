@@ -1,6 +1,7 @@
 # one
 
-A new Flutter project.
+A new Flutter project just for learning purposes.
+just experimenting, cheers.
 
 ## Getting Started
 

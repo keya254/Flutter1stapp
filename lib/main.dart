@@ -18,7 +18,33 @@ class HomePage extends StatelessWidget {
         title: Text("ni kunoma"),
       ),
       body: Container(
-        child: Text("kunoma") ,),
+        height: 100,
+        color: Colors.greenAccent,
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Container(
+              padding: EdgeInsets.all(8),
+              width: 100,
+              height: 100,
+              color: Colors.red,
+            ),
+            Container(
+              padding: EdgeInsets.all(8),
+              width: 100,
+              height: 100,
+              color: Colors.yellow,
+            ),
+            Container(
+              padding: EdgeInsets.all(8),
+              width: 100,
+              height: 100,
+              color: Colors.black,
+            )
+          ],
+        ),
+      ),
     );
   }
 }
